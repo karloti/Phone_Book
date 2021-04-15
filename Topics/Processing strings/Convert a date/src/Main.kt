@@ -1,0 +1,1 @@
+fun main() = readLine()!!.split("-").let { println("${it[1]}/${it[2]}/${it[0]}") }

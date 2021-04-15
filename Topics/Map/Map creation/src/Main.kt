@@ -1,0 +1,1 @@
+fun stringToMap(vararg s: String) = s.map { it to it.length }.toMap()

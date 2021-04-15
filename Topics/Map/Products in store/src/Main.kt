@@ -1,0 +1,1 @@
+fun bill(prices: Map<String, Int>, shoppingList: Array<String>) = shoppingList.mapNotNull { prices[it] }.sum()

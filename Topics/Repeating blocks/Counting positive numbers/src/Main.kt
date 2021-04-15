@@ -1,0 +1,1 @@
+fun main() = List(readLine()!!.toInt()) { readLine()!!.toInt() }.count { it > 0 }.let(::println)
